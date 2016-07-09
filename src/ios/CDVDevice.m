@@ -90,7 +90,7 @@
              @"uuid": [self uniqueAppInstanceIdentifier:device],
              @"cordova": [[self class] cordovaVersion],
              @"isVirtual": @([self isVirtual]),
-             @"name":[[[UIDevice alloc] init] name]
+             @"name":[device name]
              };
 }
 
